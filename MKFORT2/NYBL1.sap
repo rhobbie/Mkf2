@@ -1,0 +1,31 @@
+       FUL          NYBL1                                               NYBL1001
+       ORG 0        FROM CODING FOR THE MIT-IBM 704 COMPUTER OCT57.PDF  NYBL1002
+       LXA 0,4      THESE WORDS ARE COPIED TO 0 AND 1 BY                NYBL1003
+A      CPY 2,4      THE LOAD CARD SEQUENCE                              NYBL1004
+9R     TXI A,4,-1   THIS COPY LOOP BRINGS THE REST OF THE               NYBL1005
+       REM          CARD TO CORE MEMORY AND TERMINATES ON               NYBL1006
+       REM          THE END-OF-RECORD SKIP                              NYBL1007
+9L     PZE          USED TO STORE 9 LEFT ROW.                           NYBL1008
+       LTM          WE LEAVE THE TRAPPING MODE (JUST IN CASE)           NYBL1009
+       REM          AND ENTER THE LOADER PROPER.  THE TXI IN            NYBL1010
+       REM          REGISTER 9R IS RIGHT IN ANY CASE.                   NYBL1011
+RCD    RCD          READ BINARY CARD                                    NYBL1012
+       CPY 9L	    X AND N TO 9L AND MQ                                NYBL1013
+       LLS 17	    N FROM MQ TO AC                                     NYBL1014
+       PAX 0,4      N TO IR4                                            NYBL1015
+       ADD 9L                                                           NYBL1016
+       STA TRA      X + N TO TRA, CPY AND ACL                           NYBL1017
+       STA CPY                                                          NYBL1018
+       STA ACL                                                          NYBL1019
+TRA    TXL 0,4      EXIT TO X IF TRANSFER CARD                          NYBL1020
+       CPY 9R       CHECK SUM TO 9R                                     NYBL1021
+       CAL 9L       WORDS TO X, X+L,...,X+N-L                           NYBL1022
+CPY    CPY 0,4      FORM A NEW CHECK SUM                                NYBL1023
+ACL    ACL 0,4                                                          NYBL1024
+       TIX CPY,4,1                                                      NYBL1025
+       SLW 9L       NEW CHECK SUM TO 9L                                 NYBL1026
+       CLA 9L                                                           NYBL1027
+       SUB 9R                                                           NYBL1028
+       TZE RCD      STOP IF CHECKS SUMS DISAGREE                        NYBL1029
+       HTR RCD                                                          NYBL1030
+       END                                                              NYBL1031

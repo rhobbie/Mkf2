@@ -1,0 +1,429 @@
+       REM RECORD 001   CARD TO TAPE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 72,0,226          CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 270               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 003   SECTION 6 CIT TO SAP CONVER.
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 640               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 005   SECTION 6 ON-LINE PRINT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 361               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 007   SECTION 6 TAPE 3,7 TO 2,6
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 762               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 009   SECTION 6 SUCCESSFUL COMPILATION
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 31                9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 010   SECTION 6 SOURCE PROGRAM ERROR
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 46                9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 011   
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 0,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 012   SECTION 1 BATCH COMPILATION MONITOR
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 400               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 013   SECTION 1 MACHINE ERROR
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 29                9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 014   SECTION 1 COMMON (4K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1823              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 015   SECTION 1 WRITE DRUM (INIT.)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 313,0,4           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 384               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 016   SECTION 1 STATE D (4K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1824,0,313        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3183              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 017   SECTION 1 STATE C (4K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1824,0,324        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2595              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 018   SECTION 1 STATE B (4K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1824,0,326        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2700              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 019   SECTION 1 STATE A (4K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1824,0,328        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3782              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 020   SECTION 1 DIAGNOSTIC FOR SEC. 1
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 5920,0,5920       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 8191              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 021   SECTION 1 PRIME COMMON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2408,0,4          CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 4080              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 022   SECTION 1 PRIME PART A
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 614,0,614         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1649              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 024   SECTION 1 PRIME PART B
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 327,0,327         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 907               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 026   SECTION 1 PRIME SECTION 1"
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 25,0,25           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 706               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 027   SECTION 2 BLOCK 1
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2876,0,2898       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3792              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 029   SECTION 2 DRUM SET-UP
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 4056,0,4          CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 4093              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 030   SECTION 2 BLOCK 2 - RELCON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2934,0,4056       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3445              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 032   SECTION 2 BLOCK 2 - NORMAL
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2934,0,4058       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3496              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 034   SECTION 2 BLOCK 2 - COMMON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2025,0,2058       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2933              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 036   SECTION 2 BLOCK 3 - COMMON PART 1
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3509,0,4          CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3643              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 037   SECTION 2 BLOCK 3 - PART 2
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3980,0,3537       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 4092              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 039   SECTION 2 BLOCK 3A
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3537,0,3537       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3659              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 041   SECTION 2 BLOCK 3B
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3537,0,3537       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3979              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 043   SECTION 2 BLOCK 3C
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3537,0,3537       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3738              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 045   SECTION 2 BLOCK 4 - RELCON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 296,0,312         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 803               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 047   SECTION 2 BLOCK 5 - INITIALIZATION
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 143               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 049   SECTION 2 BLOCK 5 - ALPHA
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2734,0,50         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3984              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 051   SECTION 2 BLOCK 5 - BETA AND COMMON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1958,0,54         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3487              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 053   SECTION 2 BLOCK 6 - INVERSION
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 114               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 055   SECTION 3 OPEN SUB-ROUTINES
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3641,0,4          CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 4095              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 056   SECTION 3 PART I OF MERGE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1238              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 058   SECTION 3 PART II OF MERGE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1271              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 060   SECTION 3 PART III OF MERGE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1485              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 062   SECTION 4 PART I
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,74           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 727               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 064   SECTION 4 PART II, FIRST REC.
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 580               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 065   SECTION 4 PART II, 2nd REC.
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1588,0,563        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1672              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 067   SECTION 4 PART III
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,73           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 287               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 069   SECTION 4 PART IV
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,34           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 113               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 071   SECTION 4 PART V
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,34           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 133               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 073   SECTION 4 PART VI
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,64           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 529               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 075   SECTION 5 PART 1A-OPTIMIZE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2701              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 076   SECTION 5 PART 1B-INITIALIZE AND PREDICT LIMIT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3807,0,3807       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3896              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 078   SECTION 5 PART 1C-SUCC.LIMIT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2555              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 080   SECTION 5 PART 1D-PRED.UNDO
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2555              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 082   SECTION 5 PART 1E-SUCC.UNDO
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2555              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 084   SECTION 5 PART 2-PERMUTE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 207,0,208         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 429               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 086   SECTION 5 PART 3-GO TO N, ASCONS
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 208,0,208         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 423               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 088   SECTION 5 PART 4-COMPILE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 207,0,1889        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2382              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 090   SECTION 5 PRIME ENTIRE SECTION
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,24           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 292               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 092   SECTION 6 PRE-6
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 31,0,31           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 832               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 094   SECTION 6 BINARY SEARCH
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 31,0,136          CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 192               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 096   SECTION 6 ASSIGN COMMON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,256         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 385               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 098   SECTION 6 EQUIV-DIM
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 256,0,256         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 423               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 100   SECTION 6 COMMON MAPPING
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 305               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 101   SECTION 6 FORTRAN FTN ASSN
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 276               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 103   SECTION 6 FIRST PASS CIT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 448               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 105   SECTION 6 MAP FORTRAN FUNCT.
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 304               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 107   SECTION 6 MAP EIFN
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 320               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 109   SECTION 6 MAP PROGRAM
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 360               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 110   SECTION 6 MAP OTHER VARIABLES
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 440               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 111   SECTION 6 WRITE PROG. CARD
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 164               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 112   SECTION 6 OP TABLES
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 768,0,4           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 1099              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 113   SECTION 6 2nd PASS CIT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 477               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 115   SECTION 6 LIBRARY SEARCH AND PUNCH
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 136,0,136         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2304              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 014A   SECTION 1 COMMON, INITIAL, AND STATE A (8K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3282              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 016A   SECTION 1 STATES B,C,AND D (8K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3283,0,313        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 5620              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 073A   SECTION 4 PART VI (8K)
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,64           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 529               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 075A   SECTION 5 PART 1A-OPTIMIZE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 3021              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 076A   SECTION 5 PART 1B-INITIALIZE AND PRED. LIMIT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 7100,0,7100       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 7189              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 078A   SECTION 5 PART 1C-SUCC.LIMIT
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2555              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 080A   SECTION 5 PART 1D-PRED. UNDO
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2555              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 082A   SECTION 5 PART 1E-SUCC.UNDO
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2555              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 084A   SECTION 5 PART 2-PERMUTE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 207,0,208         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 429               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 086A   SECTION 5 PART 3- GO TO N, ASCONS
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 208,0,208         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 423               9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 088A   SECTION 5 PART 4-COMPILE
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 207,0,1889        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 2382              9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 014A   DELETE (8K) SECTION 1 COMMON, INITIAL, AND STATE A.
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 016A   DELETE (8K) SECTION 1 STATES B, C, AND D.
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 3283,0,313        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 073A   DELETE (8K) SECTION 1 PART IV
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 27,0,64           CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 075A   DELETE (8K) SECTION 1 PART 1A
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 24,0,4            CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 076A   DELETE (8K) SECTION 1 PART 1B
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 7100,0,7100       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 078A   DELETE (8K) SECTION 1 PART 1C
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 080A   DELETE (8K) SECTION 1 PART 1D
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 082A   DELETE (8K) SECTION 1 PART 1E
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 2528,0,2528       CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 084A   DELETE (8K) SECTION 1 PART 2
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 207,0,208         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 086A   DELETE (8K) SECTION 1 PART 3
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 208,0,208         CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 088A   DELETE (8K) SECTION 1 PART 4
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 207,0,1889        CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 014   DELETE (4K) SECTION 1 COMMON
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 015   DELETE (4K) SECTION 1 WRITE DRUM AND INITIAL
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 016   DELETE (4K) SECTION 1 STATE D
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 017   DELETE (4K) SECTION 1 STATE C
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 018   DELETE (4K) SECTION 1 STATE B
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 019   DELETE (4K) SECTION 1 STATE A
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 073   DELETE (4K) SECTION 4  PART VI
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 075   DELETE (4K) SECTION 5 PART 1A
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 076   DELETE (4K) SECTION 5 PART 1B
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 078   DELETE (4K) SECTION 5 PART 1C
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 080   DELETE (4K) SECTION 5 PART 1D
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 082   DELETE (4K) SECTION 5 PART 1E
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 084   DELETE (4K) SECTION 5 PART 2
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 086   DELETE (4K) SECTION 5 PART3
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       REM RECORD 088   DELETE (4K) SECTION 5 PART 4
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1
+       HTR 1,0,0             CARD FOR EDITOR, NEEDS                     MR 2
+       HTR 0                 9 ROW, COL. 3 PUNCH                        MR 3
+       END

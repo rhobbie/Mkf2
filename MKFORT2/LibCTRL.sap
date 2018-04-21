@@ -1,0 +1,31 @@
+       REM CONTROL CARD FOR SIN.                                        SIN/C01           
+       ORG 0                                                            SIN/C02           
+       PZE 108                                                          SIN/C03           
+       PZE -4                                                           SIN/C04           
+       BCD 1COS                                                         SIN/C05           
+       PZE 0                                                            SIN/C06           
+       BCD 1SIN                                                         SIN/C05           
+       PZE 2                                                            SIN/C06           
+       REM END OF SIN CONTROL CARD                                      SIN/C07
+       REM CONTROL CARD FOR EXP.                                        EXP/C01          
+       ORG 0                                                            EXP/C02          
+       PZE 47                                                           EXP/C03          
+       PZE -4                                                           EXP/C04          
+       BCD 1EXP                                                         EXP/C05          
+       PZE                                                              EXP/C06          
+       REM END OF EXP CONTROL CARD.                                     EXP/C07                  
+       REM CONTROL CARD FOR ATAN.                                       ATAN/CO1           
+       ORG 0                                                            ATAN/C02           
+       PZE 84                                                           ATAN/C03           
+       PZE -3                                                           ATAN/C04           
+       BCD 1ATAN                                                        ATAN/C05           
+       PZE                                                              ATAN/C06           
+       REM END OF ATAN CONTROL CARD                                     ATAN/C07
+       REM CONTROL CARD FOR TANH.                                       TANH/C01          
+       ORG 0                                                            TANH/C02          
+       PZE 89                                                           TANH/C03          
+       PZE -4                                                           TANH/C04          
+       BCD 1TANH                                                        TANH/C05          
+       PZE                                                              TANH/C06          
+       REM END OF TANH CONTROL CARD.                                    TANH/C07
+       END

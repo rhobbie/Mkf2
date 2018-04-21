@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config704 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+  <MT>
+    <string>UASAP.tap</string>
+    <string>MT2.tap</string>
+    <string>MT3.tap</string>
+    <string>MT4.tap</string>
+    <string>MT5.tap</string>
+    <string>MT6.tap</string>
+    <string>MT7.tap</string>
+    <string>MT8.tap</string>
+    <string>MT9.tap</string>
+    <string>MT10.tap</string>
+  </MT>
+  <CRD>UASAP3RT.cbn</CRD> 
+  <MemSize>8</MemSize>
+  <boot>CRD</boot>  
+  <CPU>Punched.cbn</CPU>
+  <LP>LP.txt</LP>
+  <ExitOnHalt>1</ExitOnHalt>
+</Config704>
+

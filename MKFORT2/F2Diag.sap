@@ -1,0 +1,1260 @@
+       REM FORTRAN 2   RECORD 002
+       REM DIAG. CALLER FOR REC. 115
+       REM LOAD ADDRESS 4000 LAST ADDRESS 4021
+RECNBR SYN 002                                                          REC  002          
+BEGIN  SYN 2048                                                         BEG 2048          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 004
+       REM DIAG. CALLER FOR REC. 003
+       REM LOAD ADDRESS 1500 LAST ADDRESS 1521
+RECNBR SYN 004                                                          REC  004          
+BEGIN  SYN 832                                                          BEG 832           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 006
+       REM DIAG. CALLER FOR REC. 005
+       REM LOAD ADDRESS 1500 LAST ADDRESS 1521
+RECNBR SYN 006                                                          REC  006          
+BEGIN  SYN 832                                                          BEG 832           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 008
+       REM DIAG. CALLER FOR REC. 007
+       REM LOAD ADDRESS 1500 LAST ADDRESS 1521
+RECNBR SYN 008                                                          REC  008          
+BEGIN  SYN 832                                                          BEG 832           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 023
+       REM DIAG. CALLER FOR REC. 022
+       REM LOAD ADDRESS 7755 LAST ADDRESS 7776
+RECNBR SYN 023                                                          REC  023          
+BEGIN  SYN 4077                                                         BEG 4077          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 025
+       REM DIAG. CALLER FOR REC. 024
+       REM LOAD ADDRESS 7755 LAST ADDRESS 7776
+RECNBR SYN 025                                                          REC  025          
+BEGIN  SYN 4077                                                         BEG 4077          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 028
+       REM DIAG. CALLER FOR REC. 027
+       REM LOAD ADDRESS 7400 LAST ADDRESS 7421
+RECNBR SYN 028                                                          REC  028          
+BEGIN  SYN 3840                                                         BEG 3840          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 031
+       REM DIAG. CALLER FOR REC. 029 + 030
+       REM LOAD ADDRESS 7400 LAST ADDRESS 7421
+RECNBR SYN 031                                                          REC  031          
+BEGIN  SYN 3840                                                         BEG 3840          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 033
+       REM DIAG. CALLER FOR REC. 032
+       REM LOAD ADDRESS 7400 LAST ADDRESS 7421
+RECNBR SYN 033                                                          REC  033          
+BEGIN  SYN 3840                                                         BEG 3840          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 035
+       REM DIAG. CALLER FOR REC. 034
+       REM LOAD ADDRESS 7756 LAST ADDRESS 7777
+RECNBR SYN 035                                                          REC  035          
+BEGIN  SYN 4078                                                         BEG 4078          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 038
+       REM DIAG. CALLER FOR REC. 036 + 037
+       REM LOAD ADDRESS 0300 LAST ADDRESS 0321
+RECNBR SYN 038                                                          REC  038          
+BEGIN  SYN 192                                                          BEG 192           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 040
+       REM DIAG. CALLER FOR REC. 039
+       REM LOAD ADDRESS 0300 LAST ADDRESS 0321
+RECNBR SYN 040                                                          REC  040          
+BEGIN  SYN 192                                                          BEG 192           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 042
+       REM DIAG. CALLER FOR REC. 041
+       REM LOAD ADDRESS 0300 LAST ADDRESS 0321
+RECNBR SYN 042                                                          REC  042          
+BEGIN  SYN 192                                                          BEG 192           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 044
+       REM DIAG. CALLER FOR REC. 043
+       REM LOAD ADDRESS 7400 LAST ADDRESS 7421
+RECNBR SYN 044                                                          REC  044          
+BEGIN  SYN 3840                                                         BEG 3840          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 046
+       REM DIAG. CALLER FOR REC. 045
+       REM LOAD ADDRESS 2000 LAST ADDRESS 2021
+RECNBR SYN 046                                                          REC  046          
+BEGIN  SYN 1024                                                         BEG 1024          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 048
+       REM DIAG. CALLER FOR REC. 047
+       REM LOAD ADDRESS 2000 LAST ADDRESS 2021
+RECNBR SYN 048                                                          REC  048          
+BEGIN  SYN 1024                                                         BEG 1024          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 050
+       REM DIAG. CALLER FOR REC. 049
+       REM LOAD ADDRESS 6000 LAST ADDRESS 6021
+RECNBR SYN 050                                                          REC  050          
+BEGIN  SYN 3072                                                         BEG 3072          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 052
+       REM DIAG. CALLER FOR REC. 051
+       REM LOAD ADDRESS 6000 LAST ADDRESS 6021
+RECNBR SYN 052                                                          REC  052          
+BEGIN  SYN 3072                                                         BEG 3072          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 054
+       REM DIAG. CALLER FOR REC. 053
+       REM LOAD ADDRESS 7000 LAST ADDRESS 7021
+RECNBR SYN 054                                                          REC  054          
+BEGIN  SYN 3584                                                         BEG 3584          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 057
+       REM DIAG. CALLER FOR REC. 055 + 056
+       REM LOAD ADDRESS 7755 LAST ADDRESS 7776
+RECNBR SYN 057                                                          REC  057          
+BEGIN  SYN 4077                                                         BEG 4077          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 059
+       REM DIAG. CALLER FOR REC. 058
+       REM LOAD ADDRESS 7755 LAST ADDRESS 7776
+RECNBR SYN 059                                                          REC  059          
+BEGIN  SYN 4077                                                         BEG 4077          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 061
+       REM DIAG. CALLER FOR REC. 060
+       REM LOAD ADDRESS 7755 LAST ADDRESS 7776
+RECNBR SYN 061                                                          REC  061          
+BEGIN  SYN 4077                                                         BEG 4077          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 063
+       REM DIAG. CALLER FOR REC. 062
+       REM LOAD ADDRESS 1400 LAST ADDRESS 1421
+RECNBR SYN 063                                                          REC  063          
+BEGIN  SYN 768                                                          BEG 768           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 066
+       REM DIAG. CALLER FOR REC. 064 + 065
+       REM LOAD ADDRESS 3211 LAST ADDRESS 3232
+RECNBR SYN 066                                                          REC  066          
+BEGIN  SYN 1673                                                         BEG 1673          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 068
+       REM DIAG. CALLER FOR REC. 067
+       REM LOAD ADDRESS 0440 LAST ADDRESS 0461
+RECNBR SYN 068                                                          REC  068          
+BEGIN  SYN 288                                                          BEG 288           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 070
+       REM DIAG. CALLER FOR REC. 069
+       REM LOAD ADDRESS 0162 LAST ADDRESS 0203
+RECNBR SYN 070                                                          REC  070          
+BEGIN  SYN 114                                                          BEG 114           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 072
+       REM DIAG. CALLER FOR REC. 071
+       REM LOAD ADDRESS 0444 LAST ADDRESS 0465
+RECNBR SYN 072                                                          REC  072          
+BEGIN  SYN 292                                                          BEG 292           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 074
+       REM DIAG. CALLER FOR REC. 073
+       REM LOAD ADDRESS 1022 LAST ADDRESS 1043
+RECNBR SYN 074                                                          REC  074          
+BEGIN  SYN 530                                                          BEG 530           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 077
+       REM DIAG. CALLER FOR REC. 075 + 076
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 077                                                          REC  077          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 079
+       REM DIAG. CALLER FOR REC. 078
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 079                                                          REC  079          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 081
+       REM DIAG. CALLER FOR REC. 080
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 081                                                          REC  081          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 083
+       REM DIAG. CALLER FOR REC. 082
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 083                                                          REC  083          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 085
+       REM DIAG. CALLER FOR REC. 084
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 085                                                          REC  085          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 087
+       REM DIAG. CALLER FOR REC. 086
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 087                                                          REC  087          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 089
+       REM DIAG. CALLER FOR REC. 088
+       REM LOAD ADDRESS 77750 LAST ADDRESS 77771
+RECNBR SYN 089                                                          REC  089          
+BEGIN  SYN 32744                                                        BEG32744          
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 091
+       REM DIAG. CALLER FOR REC. 090
+       REM LOAD ADDRESS 0450 LAST ADDRESS 0471
+RECNBR SYN 091                                                          REC  091          
+BEGIN  SYN 296                                                          BEG 296           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 093
+       REM DIAG. CALLER FOR REC. 092
+       REM LOAD ADDRESS 1367 LAST ADDRESS 1410
+RECNBR SYN 093                                                          REC  093          
+BEGIN  SYN 759                                                          BEG 759           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 095
+       REM DIAG. CALLER FOR REC. 094
+       REM LOAD ADDRESS 1000 LAST ADDRESS 1021
+RECNBR SYN 095                                                          REC  095          
+BEGIN  SYN 512                                                          BEG 512           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 097
+       REM DIAG. CALLER FOR REC. 096
+       REM LOAD ADDRESS 1000 LAST ADDRESS 1021
+RECNBR SYN 097                                                          REC  097          
+BEGIN  SYN 512                                                          BEG 512           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 099
+       REM DIAG. CALLER FOR REC. 098
+       REM LOAD ADDRESS 1000 LAST ADDRESS 1021
+RECNBR SYN 099                                                          REC  099          
+BEGIN  SYN 512                                                          BEG 512           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 102
+       REM DIAG. CALLER FOR REC. 100 + 101
+       REM LOAD ADDRESS 1000 LAST ADDRESS 1021
+RECNBR SYN 102                                                          REC  102          
+BEGIN  SYN 512                                                          BEG 512           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 104
+       REM DIAG. CALLER FOR REC. 103
+       REM LOAD ADDRESS 1125 LAST ADDRESS 1146
+RECNBR SYN 104                                                          REC  104          
+BEGIN  SYN 597                                                          BEG 597           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 106
+       REM DIAG. CALLER FOR REC. 105
+       REM LOAD ADDRESS 1125 LAST ADDRESS 1146
+RECNBR SYN 106                                                          REC  106          
+BEGIN  SYN 597                                                          BEG 597           
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 108
+       REM DIAG. CALLER FOR REC. 107
+       REM LOAD ADDRESS 0040 LAST ADDRESS 0061
+RECNBR SYN 108                                                          REC  108          
+BEGIN  SYN 32                                                           BEG 32            
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            
+       REM FORTRAN 2   RECORD 114
+       REM DIAG. CALLER FOR REC. 109,110,111,112,113
+       REM LOAD ADDRESS 0040 LAST ADDRESS 0061
+RECNBR SYN 114                                                          REC  114          
+BEGIN  SYN 32                                                           BEG 32            
+       ORG 0                 FORCE NEW MASTER RECORD                    MR 1              
+       HTR BEGIN,0,BEGIN     CARD FOR EDITOR, NEEDS                     MR 2              
+       HTR STOP              9 ROW, COL. 3 PUNCH                        MR 3              
+       ORG BEGIN             CALL DIAG FROM FILE                        CD1  1            
+       SXD 0,2                                                          CD1  2            
+       LXD MEM,1                                                        CD1  3            
+       LXD FILTST,2          * FILES TO BE SPACED OVER                  CD1  4            
+       WDR 4                 0 TO 2047 WRITTEN ON DRUM 4                CD1  5            
+COPY   CPY 2048,1                                                       CD1  6            
+       TIX COPY,1,1          NEXT TIME LOOP WILL COPY INTO 25           CD1  7            
+       TXI A,1,2022          UNTIL END OF RECORD SKIP                   CD1  8            
+       TRA 26                IGNORE RECORD NUMBER                       CD1  9            
+A      RTB 1                                                            CD1 10            
+       CPY BEGIN             SPACE OVER RECORDS IN THIS FILE            CD1 11            
+FILTST TNX A,0,3                                                        CD1 12            
+       TRA B                 HAVE ALL 3 FILES BEEN SPACED OVER          CD1 13            
+MEM    HTR RECNBR,0,2048                                                CD1 14            
+B      TIX A,2,1             NO, GO BACK TO A                           CD1 15            
+       CLA MEM                                                          CD1 16            
+       STA 2                                                            CD1 17            
+       RTB 1                 YES, READ IN MAIN DIAGNOSTIC               CD1 18            
+STOP   TRA COPY                                                         CD1 19            
+       END                                                              CD1 20            

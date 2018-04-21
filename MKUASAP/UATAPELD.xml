@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config704 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+  <MT>
+    <string>UASAP.tap</string>
+  </MT>
+  <CRD>UATAPELD.cbn</CRD> 
+  <MemSize>4</MemSize>
+  <boot>CRD</boot>  
+  <ExitOnHalt>1</ExitOnHalt>
+</Config704>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config704 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MT>
+    <string>F2_4k.tap</string>
+    <string>Mt2.tap</string>
+    <string>Mt3.tap</string>
+    <string>Mt4.tap</string>
+  </MT>  
+  <DR>
+    <string>Drm1.drm</string>
+    <string>Drm2.drm</string>
+    <string>Drm3.drm</string>
+    <string>Drm4.drm</string>
+  </DR>
+  <CRD>SourceDeck.cbn</CRD>  
+  <CPU>Punched.cbn</CPU>
+  <LP>LP.txt</LP>
+  <Switch>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+  </Switch>
+  <MemSize>4</MemSize>
+  <boot>MT</boot>
+  <ExitOnHalt>2</ExitOnHalt>
+</Config704>

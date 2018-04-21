@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config704 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MT>
+    <string>Mt1_run.tap</string>
+    <string>Mt2_run.tap</string>
+    <string>Mt3_run.tap</string>
+    <string>Mt4_run.tap</string>
+    <string>Mt5_run.tap</string>
+  </MT>  
+  <CRD>PunchedInp.cbn</CRD>
+  <LP>LP.txt</LP>
+  <MemSize>4</MemSize>
+  <boot>CRD</boot>
+</Config704>
