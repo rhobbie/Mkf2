@@ -18,10 +18,7 @@ Perform the following (this works on 32 bit and 64 bit Windows):
 3. When finished cd .. and cd MKFORT2 and enter MKFORT2
 
       This runs a set of batchfiles to create the Fortran II 4k and 8k Systemtapes from the assembler sources. 
-      
-      The FORTRAN II compiler sources come from http://www.softwarepreservation.org/projects/FORTRAN/ with additional corrections
-      done by me and others.
-      
+            
 4. When the tapes are created cd into F2_4K or F2_8K 
 
 Then run:
@@ -40,7 +37,7 @@ The next halt is a HTR 77777 at 035. This indicates that the Fortran compiler ru
 
 Then in the batch file some blank cards from the compiler output are removed with CleanDeck.exe
 
-As output you get a carddeck primer1.cbn and the printer output LP.txt
+As output you get a carddeck primer1.cbn and the compiler messages in LP.txt
 
 
 To run it enter:
