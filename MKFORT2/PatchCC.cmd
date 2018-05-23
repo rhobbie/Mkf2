@@ -124,7 +124,7 @@ PatchCard 9LP=2 CC082A.cbn NR082A.cbn
 PatchCard 9LP=2 CC084A.cbn NR084A.cbn
 PatchCard 9LP=2 CC086A.cbn NR086A.cbn
 PatchCard 9LP=2 CC088A.cbn NR088A.cbn
-PatchCard 9LP=4 CC011.cbn ENDFILE.cbn
-PatchCard 9LP=7 CC011.cbn END.cbn
 PatchCard 9LD=0 CC011.cbn Blank.cbn
+PatchCard 9LP=4 Blank.cbn ENDFILE.cbn
+PatchCard 9LP=7 Blank.cbn END.cbn
 cd ..

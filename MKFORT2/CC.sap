@@ -209,7 +209,7 @@
        REM RECORD 086   SECTION 5 PART 3-GO TO N, ASCONS
        ORG 0                 FORCE NEW MASTER RECORD                    MR 1
        HTR 208,0,208         CARD FOR EDITOR, NEEDS                     MR 2
-       HTR 423               9 ROW, COL. 3 PUNCH                        MR 3
+       HTR 422               9 ROW, COL. 3 PUNCH                        MR 3
        REM RECORD 088   SECTION 5 PART 4-COMPILE
        ORG 0                 FORCE NEW MASTER RECORD                    MR 1
        HTR 207,0,1889        CARD FOR EDITOR, NEEDS                     MR 2
