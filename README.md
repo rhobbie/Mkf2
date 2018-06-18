@@ -60,5 +60,5 @@ The second parameter of "run" is added to the carddeck and can be read with the 
 
 A few more examples are in that directory.
 
-For the general operation of the Fortran compiler see the operation manual starting with page 29.
+For the general operation of the Fortran compiler see the operation manual pages 29-39.
 ("704_FORTRAN_II_OperMan.pdf" in bitsavers 704 directory)
