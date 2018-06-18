@@ -1,7 +1,10 @@
 # Mkf2
-Windows batch files to create UASAP and FORTRAN II tapes for use with the IBM 704 simulator
+Windows batch files to create UASAP and FORTRAN II tapes for use with the IBM 704 simulator.
 
-This is the complete package to create the 4k and 8k Fortran systemtape.
+This is the complete package to create the 4k and 8k FORTRAN systemtape.
+
+The used source files are from the FORTRAN Software Preservation page with corrections done by me 
+(using a self-written OCR program) and others.
 
 Perform the following (this works on 32 bit and 64 bit Windows):
 
