@@ -1,7 +1,10 @@
 # Mkf2
-Windows batch files to create UASAP and FORTRAN II tapes for use with the IBM 704 simulator
+Windows batch files to create UASAP and FORTRAN II tapes for use with the IBM 704 simulator.
 
-This is the complete package to create the 4k and 8k Fortran systemtape.
+This is the complete package to create the 4k and 8k FORTRAN systemtape.
+
+The used source files are from the FORTRAN Software Preservation page with corrections done by me 
+(using a self-written OCR program) and others.
 
 Perform the following (this works on 32 bit and 64 bit Windows):
 
@@ -56,3 +59,6 @@ The second parameter of "run" is added to the carddeck and can be read with the 
 (This example is from page 55 of the Fortran primer)
 
 A few more examples are in that directory.
+
+For the general operation of the Fortran compiler see the operation manual pages 29-39.
+("704_FORTRAN_II_OperMan.pdf" in bitsavers 704 directory)
