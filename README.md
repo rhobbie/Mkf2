@@ -9,6 +9,7 @@ The used source files are from the FORTRAN Software Preservation page with corre
 Perform the following (this works on 32 bit and 64 bit Windows):
 
 1. Download SHARE Tape 2 from http://www.piercefuller.com/library/kyu2.html (filename is "adc00038") and put it into subdirectory MKUASAP
+(or from here https://web.archive.org/web/20160305044118/http://www.piercefuller.com/library/kyu2.html )
 
 2. Double click on setpath.cmd. 
 
@@ -20,9 +21,10 @@ Perform the following (this works on 32 bit and 64 bit Windows):
       
 3. When finished cd .. and cd MKFORT2 and enter MKFORT2
 
-      This runs a set of batchfiles to create the Fortran II 4k and 8k Systemtapes from the assembler sources. 
+      This runs a set of batchfiles with a lot of console output.
+      It creates the Fortran II 4k and 8k Systemtapes from the assembler sources. 
             
-4. When the tapes are created cd into F2_4K or F2_8K 
+4. When finished cd into F2_4K or F2_8K 
 
 Then run:
  
