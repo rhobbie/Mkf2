@@ -2,4 +2,5 @@
 *.f eol=crlf
 *.sap eol=crlf
 *.txt eol=crlf
+*.TXT eol=crlf
 *.xml eol=crlf
