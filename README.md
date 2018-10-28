@@ -9,7 +9,7 @@ The used source files are from the FORTRAN Software Preservation page with corre
 Perform the following (this works on 32 bit and 64 bit Windows):
 
 1. Download SHARE Tape 2 from http://www.piercefuller.com/library/kyu2.html (filename is "adc00038") and put it into subdirectory MKUASAP
-(or from here https://web.archive.org/web/20160305044118/http://www.piercefuller.com/library/kyu2.html )
+(Backup link https://web.archive.org/web/20160305044118/http://www.piercefuller.com/library/kyu2.html )
 
 2. Double click on setpath.cmd. 
 
@@ -49,8 +49,6 @@ To run it enter:
  
 run primer1.cbn
  
-At the first halt enter x and hit return to exit.
-
 In LP.txt is the printer output of the sample. (Just the number 2.99085)
  
 For a larger example compile primer14.f and run it with

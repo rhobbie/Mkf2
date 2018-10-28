@@ -1,4 +1,5 @@
 @echo off
+del /q LP.txt PunchedInp.cbn input.cbn
 if "%~2"=="" (
 CopyCards "%1" PunchedInp.cbn >nul
 ) else (

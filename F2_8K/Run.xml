@@ -6,9 +6,15 @@
     <string>Mt3_run.tap</string>
     <string>Mt4_run.tap</string>
     <string>Mt5_run.tap</string>
+    <string>Mt6_run.tap</string>
+    <string>Mt7_run.tap</string>
+    <string>Mt8_run.tap</string>
+    <string>Mt9_run.tap</string>
+    <string>Mt10_run.tap</string>
   </MT>  
   <CRD>PunchedInp.cbn</CRD>
   <LP>LP.txt</LP>
-  <MemSize>8</MemSize>
+  <MemSize>32</MemSize>
   <boot>CRD</boot>
+  <ExitOnHalt>1</ExitOnHalt>  
 </Config704>
