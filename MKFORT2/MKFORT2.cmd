@@ -3,7 +3,6 @@ rem run UASAP for source files
 cd ..\UASAP
 
 call UASAP ..\MKFORT2\fort2.sap
-call UASAP ..\MKFORT2\Section4_8K.sap
 call UASAP ..\MKFORT2\CC.sap
 call UASAP ..\MKFORT2\F2Diag.sap
 call UASAP ..\MKFORT2\LibCTRL.sap
@@ -14,9 +13,7 @@ cd ..\MKFORT2
 rem split card decks 
 mkdir fort2
 SapSplit FORT2.TXT fort2.cbn fort2\
-SapSplit Section4_8K.lst Section4_8K.cbn fort2\
 Call F_copy.cmd
-del /Q fort2\Line*
 
 SapSplit CC.lst CC.cbn fort2\
 Call C_copy.cmd
