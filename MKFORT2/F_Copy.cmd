@@ -84,10 +84,10 @@ rem build record 73A from record 73 using the instructions from fortran listing 
 SplitDeck REC073.cbn 1 Card1.cbn  tmp1.cbn
 SplitDeck tmp1.cbn 1 Card2.cbn tmp2.cbn
 SplitDeck tmp2.cbn 15 Card3_17.cbn tmp1.cbn
-SplitDeck tmp1.cbn 1 Card18.cbn Cart19_end.cbn
+SplitDeck tmp1.cbn 1 Card18.cbn Card19_end.cbn
 PatchCard 1LD=03140 Card2.cbn
 PatchCard 4RA=01037 Card18.cbn
-CopyCards Card1.cbn+Card2.cbn+Card3_17.cbn+Card18.cbn+Cart19_end.cbn REC073A.cbn
+CopyCards Card1.cbn+Card2.cbn+Card3_17.cbn+Card18.cbn+Card19_end.cbn REC073A.cbn
 del Card*.cbn tmp*.cbn
 
 cd ..
