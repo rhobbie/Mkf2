@@ -7,6 +7,7 @@ call UASAP ..\MKFORT2\CC.sap
 call UASAP ..\MKFORT2\F2Diag.sap
 call UASAP ..\MKFORT2\LibCTRL.sap
 call UASAP ..\MKFORT2\NYBL1.sap
+call UASAP ..\MKFORT2\IMT.sap
 
 cd ..\MKFORT2
 
@@ -56,8 +57,9 @@ cd ..
 rmdir fort2
 del /Q *.lst
 
-rem create dummy master tape
-MasterTape mt5.tap
+rem create initial master tape
+CopyCards NYBL1.cbn+IMT.cbn MKIMT.cbn
+Sim704 MKIMT.xml
 
 rem create 4k and 8k system tape
 Sim704 F2_4k.xml
@@ -67,4 +69,4 @@ rem copy created tapes
 copy /Y F2_4k.tap ..\F2_4K
 copy /Y F2_8K.tap ..\F2_8K
 
-del /Q CC.cbn F2Diag.cbn fort2.cbn LibCTRL.cbn NYBL1.cbn Section4_8K.cbn
+del /Q CC.cbn F2Diag.cbn fort2.cbn LibCTRL.cbn NYBL1.cbn IMT.cbn MKIMT.cbn
