@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Config704 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
   <MT>
-    <string>F2_8k.tap</string>
+    <string>F2_M.tap</string>
     <string>MT2.tap</string>
     <string>MT3.tap</string>
     <string>MT4.tap</string>
-    <string>F2_M.tap</string>
+    <string>MT5.tap</string>
   </MT>
-  <CRD>F2_8k.cbn</CRD> 
-  <MemSize>8</MemSize>
+  <CRD>F2_M.cbn</CRD> 
+  <MemSize>4</MemSize>
   <boot>CRD</boot>  
   <ExitOnHalt>1</ExitOnHalt>
 </Config704>

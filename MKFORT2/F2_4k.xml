@@ -5,7 +5,7 @@
     <string>MT2.tap</string>
     <string>MT3.tap</string>
     <string>MT4.tap</string>
-    <string>MT5.tap</string>
+    <string>F2_M.tap</string>
   </MT>
   <CRD>F2_4k.cbn</CRD> 
   <MemSize>4</MemSize>

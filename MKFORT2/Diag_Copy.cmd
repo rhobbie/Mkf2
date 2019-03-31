@@ -421,6 +421,7 @@ CopyCards DEC174.cbn+DEC175_CC.cbn+DEC175.cbn+DEC176_CC.cbn+DEC176.cbn+DEC177_CC
 CopyCards DEC180_CC.cbn+DEC180.cbn+DEC181_CC.cbn+DEC181.cbn+DEC182_CC.cbn+DEC182.cbn+DEC183_CC.cbn+DEC183.cbn+DEC184_CC.cbn+DEC184.cbn+DEC185_CC.cbn D34.cbn
 CopyCards DEC185.cbn+DEC186_CC.cbn+DEC186.cbn+DEC187_CC.cbn+DEC187.cbn+DEC188_CC.cbn+DEC188.cbn+DEC189_CC.cbn+DEC189.cbn+DEC190_CC.cbn+DEC190.cbn D35.cbn
 CopyCards D1.cbn+D2.cbn+D3.cbn+D4.cbn+D5.cbn+D6.cbn+D7.cbn+D8.cbn+D9.cbn+D10.cbn+D11.cbn+D12.cbn+D13.cbn+D14.cbn+D15.cbn+D16.cbn+D17.cbn+D18.cbn+D19.cbn+D20.cbn+D21.cbn+D22.cbn+D23.cbn+D24.cbn+D25.cbn+D26.cbn+D27.cbn+D28.cbn+D29.cbn+D30.cbn+D31.cbn+D32.cbn+D33.cbn+D34.cbn+D35.cbn+D_END_CC.cbn DIA.cbn
+CopyCards FNDE2.cbn+D_END_CC.cbn DIA_S.cbn
 del /Q D1.cbn D2.cbn D3.cbn D4.cbn D5.cbn D6.cbn D7.cbn D8.cbn D9.cbn D10.cbn D11.cbn D12.cbn D13.cbn D14.cbn D15.cbn D16.cbn D17.cbn D18.cbn D19.cbn D20.cbn D21.cbn D22.cbn D23.cbn D24.cbn D25.cbn D26.cbn D27.cbn D28.cbn D29.cbn D30.cbn D31.cbn D32.cbn D33.cbn D34.cbn D35.cbn
 del /Q DEC*
 del /Q FNDE2.cbn DRI_CC.cbn DRI.cbn MDR_CC.cbn MDR.cbn Blank.cbn D_END_CC.cbn 

@@ -1,14 +1,16 @@
 cd fort2
-CopyCards REC000.cbn+NR001.cbn+REC001.cbn+NR002.cbn+REC002.cbn+NR003.cbn+REC003.cbn+NR004.cbn+REC004.cbn+NR005.cbn+REC005.cbn+NR006.cbn+REC006.cbn+NR007.cbn+REC007.cbn+NR008.cbn+REC008.cbn+NR009.cbn+REC009.cbn+NR010.cbn+REC010.cbn+ENDFILE.cbn File1.cbn
-CopyCards NR012.cbn+REC012.cbn+NR013.cbn+REC013.cbn+NR014A.cbn+REC014A.cbn+NR016A.cbn+REC016A.cbn+NR020.cbn+REC020.cbn+NR021.cbn+REC021.cbn+NR022.cbn+REC022.cbn+NR023.cbn+REC023.cbn File2a.cbn
-CopyCards NR024.cbn+REC024.cbn+NR025.cbn+REC025.cbn+NR026.cbn+REC026.cbn+NR027.cbn+REC027.cbn+NR028.cbn+REC028.cbn+NR029.cbn+REC029.cbn+NR030.cbn+REC030.cbn+NR031.cbn+REC031.cbn+NR032.cbn+REC032.cbn+NR033.cbn+REC033.cbn+NR034.cbn+REC034.cbn+NR035.cbn+REC035.cbn File2b.cbn
-CopyCards NR036.cbn+REC036.cbn+NR037.cbn+REC037.cbn+NR038.cbn+REC038.cbn+NR039.cbn+REC039.cbn+NR040.cbn+REC040.cbn+NR041.cbn+REC041.cbn+NR042.cbn+REC042.cbn+NR043.cbn+REC043.cbn+NR044.cbn+REC044.cbn+NR045.cbn+REC045.cbn+NR046.cbn+REC046.cbn+NR047.cbn+REC047.cbn File2c.cbn
-CopyCards NR048.cbn+REC048.cbn+NR049.cbn+REC049.cbn+NR050.cbn+REC050.cbn+NR051.cbn+REC051.cbn+NR052.cbn+REC052.cbn+NR053.cbn+REC053.cbn+NR054.cbn+REC054.cbn+NR055.cbn+REC055.cbn+NR056.cbn+REC056.cbn+NR057.cbn+REC057.cbn+NR058.cbn+REC058.cbn+NR059.cbn+REC059.cbn File2d.cbn
-CopyCards NR060.cbn+REC060.cbn+NR061.cbn+REC061.cbn+NR062.cbn+REC062.cbn+NR063.cbn+REC063.cbn+NR064.cbn+REC064.cbn+NR065.cbn+REC065.cbn+NR066.cbn+REC066.cbn+NR067.cbn+REC067.cbn+NR068.cbn+REC068.cbn+NR069.cbn+REC069.cbn+NR070.cbn+REC070.cbn+NR071.cbn+REC071.cbn File2e.cbn
-CopyCards NR072.cbn+REC072.cbn+NR073A.cbn+REC073A.cbn+NR074.cbn+REC074.cbn+NR075A.cbn+REC075A.cbn+NR076A.cbn+REC076A.cbn+NR077.cbn+REC077.cbn+NR078A.cbn+REC078A.cbn+NR079.cbn+REC079.cbn+NR080A.cbn+REC080A.cbn+NR081.cbn+REC081.cbn+NR082A.cbn+REC082A.cbn+NR083.cbn+REC083.cbn File2f.cbn
-CopyCards NR084A.cbn+REC084A.cbn+NR085.cbn+REC085.cbn+NR086A.cbn+REC086A.cbn+NR087.cbn+REC087.cbn+NR088A.cbn+REC088A.cbn+NR089.cbn+REC089.cbn+NR090.cbn+REC090.cbn+NR091.cbn+REC091.cbn+NR092.cbn+REC092.cbn+NR093.cbn+REC093.cbn+NR094.cbn+REC094.cbn+NR095.cbn+REC095.cbn File2g.cbn
-CopyCards NR096.cbn+REC096.cbn+NR097.cbn+REC097.cbn+NR098.cbn+REC098.cbn+NR099.cbn+REC099.cbn+NR100.cbn+REC100.cbn+NR101.cbn+REC101.cbn+NR102.cbn+REC102.cbn+NR103.cbn+REC103.cbn+NR104.cbn+REC104.cbn+NR105.cbn+REC105.cbn+NR106.cbn+REC106.cbn+NR107.cbn+REC107.cbn File2h.cbn
-CopyCards NR108.cbn+REC108.cbn+NR109.cbn+REC109.cbn+NR110.cbn+REC110.cbn+NR111.cbn+REC111.cbn+NR112.cbn+REC112.cbn+NR113.cbn+REC113.cbn+NR114.cbn+REC114.cbn+NR115.cbn+REC115.cbn+ENDFILE.cbn+END.cbn File2i.cbn
-CopyCards NYBL1.cbn+EDT.cbn+File1.cbn+File2a.cbn+File2b.cbn+File2c.cbn+File2d.cbn+File2e.cbn+File2f.cbn+File2g.cbn+File2h.cbn+File2i.cbn F8k.cbn
+CopyCards REC000.cbn+MR001.cbn+MR002.cbn+MR003.cbn+MR004.cbn+MR005.cbn+MR006.cbn+MR007.cbn+MR008.cbn+MR009.cbn+MR010.cbn+ENDFILE.cbn File1.cbn
+CopyCards MR012.cbn+MR013.cbn+DR014.cbn+MR014A.cbn+DR015.cbn+DR016.cbn+MR016A.cbn+DR017.cbn+DR018.cbn+DR019.cbn File2A.cbn
+CopyCards MR020.cbn+MR021.cbn+MR022.cbn+MR023.cbn+MR024.cbn+MR025.cbn+MR026.cbn+MR027.cbn+MR028.cbn+MR029.cbn+MR030.cbn File2B.cbn
+CopyCards MR031.cbn+MR032.cbn+MR033.cbn+MR034.cbn+MR035.cbn+MR036.cbn+MR037.cbn+MR038.cbn+MR039.cbn+MR040.cbn+MR041.cbn File2C.cbn
+CopyCards MR042.cbn+MR043.cbn+MR044.cbn+MR045.cbn+MR046.cbn+MR047.cbn+MR048.cbn+MR049.cbn+MR050.cbn+MR051.cbn+MR052.cbn File2D.cbn
+CopyCards MR053.cbn+MR054.cbn+MR055.cbn+MR056.cbn+MR057.cbn+MR058.cbn+MR059.cbn+MR060.cbn+MR061.cbn+MR062.cbn+MR063.cbn File2E.cbn
+CopyCards MR064.cbn+MR065.cbn+MR066.cbn+MR067.cbn+MR068.cbn+MR069.cbn+MR070.cbn+MR071.cbn+MR072.cbn+DR073.cbn+MR073A.cbn File2F.cbn
+CopyCards MR074.cbn+DR075.cbn+MR075A.cbn+DR076.cbn+MR076A.cbn+MR077.cbn+DR078.cbn+MR078A.cbn+MR079.cbn+DR080.cbn File2G.cbn
+CopyCards MR080A.cbn+MR081.cbn+DR082.cbn+MR082A.cbn+MR083.cbn+DR084.cbn+MR084A.cbn+MR085.cbn+DR086.cbn+MR086A.cbn File2H.cbn
+CopyCards MR087.cbn+DR088.cbn+MR088A.cbn+MR089.cbn+MR090.cbn+MR091.cbn+MR092.cbn+MR093.cbn+MR094.cbn+MR095.cbn+MR096.cbn File2I.cbn
+CopyCards MR097.cbn+MR098.cbn+MR099.cbn+MR100.cbn+MR101.cbn+MR102.cbn+MR103.cbn+MR104.cbn+MR105.cbn+MR106.cbn+MR107.cbn File2J.cbn
+CopyCards MR108.cbn+MR109.cbn+MR110.cbn+MR111.cbn+MR112.cbn+MR113.cbn+MR114.cbn+MR115.cbn+ENDFILE.cbn+END.cbn File2K.cbn
+CopyCards NYBL1.cbn+EDT.cbn+File1.cbn+File2A.cbn+File2B.cbn+File2C.cbn+File2D.cbn+File2E.cbn+File2F.cbn+File2G.cbn+File2H.cbn+File2I.cbn+File2J.cbn+File2K.cbn F8k.cbn
 del /q File*.cbn
 cd ..

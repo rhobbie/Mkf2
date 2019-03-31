@@ -39,7 +39,8 @@ CopyCards NYBL1.cbn+PLIB.cbn+DBC_PC.cbn+DBC.cbn+CSH_PC.cbn+CSH.cbn+TSH_PC.cbn+TS
 CopyCards STH.cbn+LRT_PC.cbn+LRT.cbn+EXP1_PC.cbn+EXP1.cbn+EXP2_PC.cbn+EXP2.cbn+EXP3_PC.cbn+EXP3.cbn+NYBL1.cbn+GLIB.cbn+LOG_PC.cbn+LOG.cbn+SICO_PC.cbn+SICO.cbn LIB2.cbn
 CopyCards EXP_PC.cbn+EXP.cbn+SQRT_PC.cbn+SQRT.cbn+ATAN_PC.cbn+ATAN.cbn+TANH_PC.cbn+TANH.cbn+Blank.cbn LIB3.cbn
 CopyCards LIB1.cbn+LIB2.cbn+LIB3.cbn LIB.cbn
+CopyCards NYBL1.cbn+PLIB.cbn+Blank.cbn LIB_M.cbn
 del /Q PLIB.cbn DBC_PC.cbn DBC.cbn CSH_PC.cbn CSH.cbn TSH_PC.cbn TSH.cbn BDC_PC.cbn BDC.cbn SCH_PC.cbn SCH.cbn SPH_PC.cbn SPH.cbn STH_PC.cbn LIB1.cbn
-del /Q STH.cbn LRT_PC.cbn LRT.cbn EXP1_PC.cbn EXP1.cbn EXP2_PC.cbn EXP2.cbn EXP3_PC.cbn EXP3.cbn NYBL1.cbn GLIB.cbn LOG_PC.cbn LOG.cbn SICO_PC.cbn SICO.cbn LIB2.cbn
+del /Q STH.cbn LRT_PC.cbn LRT.cbn EXP1_PC.cbn EXP1.cbn EXP2_PC.cbn EXP2.cbn EXP3_PC.cbn EXP3.cbn GLIB.cbn LOG_PC.cbn LOG.cbn SICO_PC.cbn SICO.cbn LIB2.cbn
 del /Q EXP_PC.cbn EXP.cbn SQRT_PC.cbn SQRT.cbn ATAN_PC.cbn ATAN.cbn TANH_PC.cbn TANH.cbn LIB3.cbn
 cd ..

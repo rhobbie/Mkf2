@@ -80,4 +80,31 @@ CopyCards Line311_A.cbn CC082A.cbn
 CopyCards Line315_A.cbn CC084A.cbn
 CopyCards Line319_A.cbn CC086A.cbn
 CopyCards Line323_A.cbn CC088A.cbn
+CopyCards Line327_A.cbn DC014A.cbn
+CopyCards Line331_A.cbn DC016A.cbn
+CopyCards Line335_A.cbn DC073A.cbn
+CopyCards Line339_A.cbn DC075A.cbn
+CopyCards Line343_A.cbn DC076A.cbn
+CopyCards Line347_A.cbn DC078A.cbn
+CopyCards Line351_A.cbn DC080A.cbn
+CopyCards Line355_A.cbn DC082A.cbn
+CopyCards Line359_A.cbn DC084A.cbn
+CopyCards Line363_A.cbn DC086A.cbn
+CopyCards Line367_A.cbn DC088A.cbn
+CopyCards Line371_A.cbn DC014.cbn
+CopyCards Line375_A.cbn DC015.cbn
+CopyCards Line379_A.cbn DC016.cbn
+CopyCards Line383_A.cbn DC017.cbn
+CopyCards Line387_A.cbn DC018.cbn
+CopyCards Line391_A.cbn DC019.cbn
+CopyCards Line395_A.cbn DC073.cbn
+CopyCards Line399_A.cbn DC075.cbn
+CopyCards Line403_A.cbn DC076.cbn
+CopyCards Line407_A.cbn DC078.cbn
+CopyCards Line411_A.cbn DC080.cbn
+CopyCards Line415_A.cbn DC082.cbn
+CopyCards Line419_A.cbn DC084.cbn
+CopyCards Line423_A.cbn DC086.cbn
+CopyCards Line427_A.cbn DC088.cbn
+
 cd ..
