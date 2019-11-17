@@ -19,9 +19,9 @@ PatchCard 9LP=4 Page924Line3_A.cbn EXP1_PC.cbn
 RemoveTransfercard Page924Line9_RT.cbn EXP1.cbn
 PatchCard 9LP=4 Page925Line3_A.cbn EXP2_PC.cbn
 RemoveTransfercard Page925Line9_RT.cbn EXP2.cbn
-PatchCard 9LP=4 Page927Line3_A.cbn EXP3_PC.cbn
+PatchCard 9LP=4 Line33_A.cbn EXP3_PC.cbn
 RemoveTransfercard Page927Line13_RT.cbn EXP3.cbn
-PatchCard 9LP=4 Page930Line3_A.cbn LOG_PC.cbn
+PatchCard 9LP=4 Line44_A.cbn LOG_PC.cbn
 RemoveTransfercard Page930Line9_RT.cbn LOG.cbn
 PatchCard 9LP=4 Line3_A.cbn SICO_PC.cbn
 RemoveTransfercard Page931Line2_RT.cbn SICO.cbn

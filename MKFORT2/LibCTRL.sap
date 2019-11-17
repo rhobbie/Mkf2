@@ -28,4 +28,22 @@
        BCD 1TANH                                                        TANH/C05          
        PZE                                                              TANH/C06          
        REM END OF TANH CONTROL CARD.                                    TANH/C07
+       REM CONTROL CARD FOR EXP(3                                       XP3/C01
+       ORG 0                                                            XP3/C02
+       PZE 112                                                          XP3/C03
+       PZE -8                                                           XP3/C04
+       BCD 1EXP(3                                                       XP3/C05
+       PZE                                                              XP3/C06
+       BCD 1EXP                                                         XP3/C07
+       MZE 10                                                           XP3/C08
+       BCD 1LOG                                                         XP3/C09
+       MZE 73                                                           XP3/C10
+       REM END OF EXP(3 CONTROL CARD.                                   XP3/C11
+       REM CONTROL CARD FOR LOG.                                        LOG/C01
+       ORG 0                                                            LOG/C02
+       PZE 39                                                           LOG/C03
+       PZE -3                                                           LOG/C04
+       BCD 1LOG                                                         LOG/C05
+       PZE                                                              LOG/C06
+       REM END OF LOG CONTROL CARD                                      LOG/C07
        END
