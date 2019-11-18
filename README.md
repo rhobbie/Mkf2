@@ -56,7 +56,14 @@ For a larger example compile primer14.f and run it with
 run primer14.cbn primer14_input.txt
 
 The second parameter of "run" is added to the carddeck and can be read with the READ statement by the Fortran program.
-(This example is from page 55 of the Fortran primer)
+This example is from page 55 of the Fortran primer, the input data is from here https://rosettacode.org/wiki/Polynomial_regression
+
+MatInv.f is the "Matrix Inversion Order 5" sample from the Fortran software preservation site (date ca. 1958).
+Link: https://archive.computerhistory.org/resources/text/Fortran/102679230.05.01.acc.pdf
+
+This document contains an assembler listing of the compiler output and the numerical result of the matrix inversion.
+This can be used to check that the compiler runs properly and that the floating point emulation is correct.
+The current version of the simulator gives now the same result for both as the original IBM 704.
 
 A few more examples are in that directory.
 
